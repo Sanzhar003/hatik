@@ -3044,6 +3044,19 @@ h6 {
   }
 }
 
+@media (max-width: 700px) {
+  .goods__top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .goods__top-img {
+    padding: 0px;
+  }
+}
+
 @media (max-width: 630px) {
   .shop__body {
     -webkit-box-orient: vertical;
@@ -3205,6 +3218,11 @@ h6 {
 }
 
 @media (max-width: 440px) {
+  .shop__product-column {
+    padding: 40px;
+    margin: 0px auto 20px auto;
+  }
+
   .shop__product-title {
     padding: 0px 0px 20px 0px;
     font-size: 25px;
