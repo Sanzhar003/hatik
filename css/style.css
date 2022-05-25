@@ -5018,6 +5018,24 @@ h6 {
   }
 }
 
+@media (max-width: 560px) {
+  .main__tv-content {
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .main__tv-title {
+    margin: 0;
+    font-size: 30px;
+  }
+
+  .main__tv-subtitle {
+    margin: 0;
+    font-size: 30px;
+  }
+}
+
 @media (max-width: 550px) {
   .goods__content-price-bascet {
     -webkit-box-orient: vertical;
